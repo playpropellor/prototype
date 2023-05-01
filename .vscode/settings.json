@@ -1,0 +1,12 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    // JavaScript specific settings:
+    "[javascript]": {
+        // disable prettier
+        "editor.defaultFormatter": null
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}

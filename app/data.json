@@ -1,0 +1,90 @@
+{
+  "teams": [
+    {
+      "name": "Team Propellor",
+      "members": [
+        {
+          "id": 1,
+          "name": "Jay Huffman"
+        },
+        {
+          "id": 2,
+          "name": "Nick Jones"
+        },
+        {
+          "id": 3,
+          "name": "Collin Duddy"
+        },
+        {
+          "id": 4,
+          "name": "Nicholas Dzwill"
+        },
+        {
+          "id": 5,
+          "name": "Malinda Mosholder"
+        }
+      ],
+      "tickets": [
+        {
+          "id": "1",
+          "name": "Vegas Trip!",
+          "wager": "$165.69",
+          "payout": "$5586.23",
+          "picks": [
+            {
+              "id": 1,
+              "userId": 1,
+              "name": "Ronald Acuña Jr",
+              "propType": "Stolen Bases",
+              "game": "Atl @ Stl - 1:15pm",
+              "propNumber": 0.5,
+              "over": true,
+              "amount": "$20.00"
+            },
+            {
+              "id": 2,
+              "userId": 2,
+              "name": "Luca Doncic",
+              "propType": "Points",
+              "game": "Sac @ Dal - 8:30pm",
+              "propNumber": 34.5,
+              "over": true,
+              "amount": "$35.00"
+            },
+            {
+              "id": 3,
+              "userId": 3,
+              "name": "Shohei Ohtani",
+              "propType": "Strikeouts",
+              "game": "LAA @ SEA - 8:30pm",
+              "propNumber": 7.5,
+              "over": false,
+              "amount": "$10.00"
+            },
+            {
+              "id": 4,
+              "userId": 4,
+              "name": "Nathan MacKinnon",
+              "propType": "Shots",
+              "game": "SEA @ COL - 7:30pm",
+              "propNumber": 4.5,
+              "over": true,
+              "amount": "$15.00"
+            },
+            {
+              "id": 5,
+              "userId": 5,
+              "name": "Erling Haaland",
+              "propType": "Goals",
+              "game": "MCI @ LVI - 8:30am",
+              "propNumber": 0.5,
+              "over": true,
+              "amount": "$15.00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sports": ["NBA", "MLB", "NHL", "PGA", "Soccer", "eSports"]
+}
