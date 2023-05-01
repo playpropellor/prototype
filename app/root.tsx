@@ -17,6 +17,10 @@ export const links: LinksFunction = () => {
       rel: "stylesheet",
       href: stylesHref,
     },
+    {
+      rel: "icon",
+      href: "./favicon.png",
+    },
   ];
 };
 
